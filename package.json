@@ -1,0 +1,17 @@
+{
+  "name": "mcp-servers",
+  "version": "1.0.0",
+  "description": "Monorepo for Model Context Protocol (MCP) servers",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "dev": "npm run dev --workspaces",
+    "clean": "npm run clean --workspaces && rm -rf node_modules"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

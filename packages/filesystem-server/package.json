@@ -1,5 +1,5 @@
 {
-  "name": "filesystem-mcp-server",
+  "name": "@mcp-servers/filesystem-server",
   "version": "1.0.0",
   "description": "A Model Context Protocol (MCP) server that exposes file system operations as AI-callable tools",
   "main": "dist/index.js",
